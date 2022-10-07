@@ -90,6 +90,10 @@
          * - Should be all uppercase letters ie YELLOW
          * - Multipple words should be separated with an underscore ie YELLOW_COLOR
          * 
+         * 7. Constructor
+         * - constructor name should be the same as the class name
+         * - it must have no explicit return type
+         * - it cannot be abstract, static, final and synchronized 
          */
 
         //  Objects and classes
@@ -172,6 +176,20 @@ public class jObjects{
         // --- calling the methods ---
         callNuclearFamily.familyMembers();
         anotherNuclearFamily.familyMembers();
+
+
+        // calling the constructors
+        // System.out.println("Using constructors to initialize objects");
+        // Company companyConstructors1 = myInstance.new Company();
+        // companyConstructors1.mainCompany();
+        String names[] = {"asdsd", "asdasd", "wdqwd"};
+        Company companyConstructors2 = myInstance.new Company("John Ngumi", "Ndegwa", names);
+
+        // companyConstructors2.mainCompany();
+        companyConstructors2.setName("Myname");
+
+        System.out.println(companyConstructors2.getName());
+
         }
         
     /*
@@ -203,5 +221,67 @@ public class jObjects{
         System.out.println("The name of the second born child is " + " " + secondBorn);
         System.out.println("This nuclear family has " + " " + familyNumber + " " + "members");
     }
-}
+    }
+    /*
+     * ----- using constructors -----
+     * - cosntructors are called when an instance of a class is created.
+     * - it is used to initialize the object
+     * - default constructor's are created at compilation time and memory for the object is created in the memory
+     * 
+     * - types are: 
+     *      - no-arg/default constructor
+     *      - parameterilized constructor
+     * 
+     * - constructor overloading
+     * - this is a method of having more than one constructor with different parameter lists
+     * - their arrangement is in such a way that every constructor performs a distinct tasks
+     * - they can be of different types
+     */
+
+    public class Company{
+        String name;
+        String location;
+        String director;
+        String manager;
+        // String employees;
+        String[] employees = new String[4];
+
+        
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        Company(String regName, String countyName){
+            name = regName;
+            location = countyName;
+        }
+
+        Company(String directorName, String managerName, String[] employeeNames){
+            director = directorName;
+            manager = managerName;
+            employees =  employeeNames;
+        }
+
+        void mainCompany(){
+            System.out.println(this.name);
+            System.out.println(this.location);
+            System.out.println(this.director);
+            // System.out.println(Company);
+
+            // System.out.println("The name of the company is ".concat(name).concat("and it is located at").concat(location));
+        }
+        /*
+         * - Company() are parameterilized constructors
+         * - they are of two types:
+         *      - Strings and arrays
+         * 
+         * - to use them, we have to initialize the object Company and call them within a method preferably the main() method
+         */
+    }
+
 }
