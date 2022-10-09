@@ -23,6 +23,17 @@
         - default: when none of the modifiers are used, default is used meaning method is accessible from the same package only
         
 * - method overloading is the case where a method has another name as another method
+*
+* ----- method overriding -----
+* - method overriding on the other hand occurs when a subclass has a similar method to the
+*   parent class. This means that the subclass has the specific implementation of the method declared
+*   in the parent class.
+* - method overriding is used for runtime polymorphism
+*
+* -- method overriding rules
+* 1. method has similar name to parent class method
+* 2. method should have same parameter to parent class
+* 3. there must be an inheritance
 
 * - types of methods are:
         - predefined method

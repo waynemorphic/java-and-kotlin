@@ -1,17 +1,18 @@
 /*
  * ---- inheritance in java
+ * - also called an IS-A relationship
  * - mechanism in which one object acquires all the properties and behaviours of a parent object
  * - idea is that you can create new classes built upon existing classes
- * - by inheriting from an existing class, you can resue methods and fields of the parent class and add new methods and 
+ * - by inheriting from an existing class, you can re-use methods and fields of the parent class and add new methods and
  *   fields to your current class
- * - used for method overriding to achieve runtime polymorphism and for code reusabilty
+ * - used for method overriding to achieve runtime polymorphism and for code re-usability
  * 
  * -- terms used
  * 1. class
  *      - group objects with common properties
  *      - template for creating objects
  * 
- * 2. sub class/child class
+ * 2. sub-class/child class
  *      - class that inherits the other class
  *      - also referred to as derived/extended class
  * 
