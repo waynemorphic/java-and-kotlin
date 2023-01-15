@@ -20,33 +20,19 @@ public class GrassHopper {
   // method with conditions
   static String jacketOptions(String weather){ 
     
-    String weatherType[] = {"Sunny", "Cold"};
-    String jacketType[] = {"Heavy", "Light"};
+    String[] weatherType = {"Sunny", "Cold"};
+    String[] jacketType = {"Heavy", "Light"};
 
-    String[][] jack = {{"Sunny", "Cold"}, {"Heavy", "Light"}};
-
-
-    String[] firstWeatherArray = {};
-
-    for (String i : jack[0]){
-      i = 
-      System.out.println(i);
-
-    }
-    // System.out.println(firstWeatherArray);
-
-
-    System.out.println(jack[0][0]);
-
-    if (weather == weatherType[0]){
+    if (weather.equalsIgnoreCase(weatherType[0])){
       String jacket = jacketType[1];
       return "The weather today is " + weather + ". " + "Please wear a " + jacket + " jacket";
     }
-    else{
+    else if(weather.equalsIgnoreCase(weatherType[1])){
       weather = weatherType[1];
       String jacket = jacketType[0];
       return "The weather today is " + weather + ". " + "Please wear a " + jacket + " jacket";
     }
+    return "Weather option " +  weather + " unavailable";
     // return "The weather today is ";
     
   }
@@ -54,6 +40,6 @@ public class GrassHopper {
     cityGreeting("Nairobi");
     sumGame(2,3,4);
     System.out.println(personName("John", "Doe"));
-    System.out.println(jacketOptions("Sunny"));
+    System.out.println(jacketOptions("rainy"));
   }
 }
