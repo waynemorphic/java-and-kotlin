@@ -13,9 +13,11 @@ For example, the following array A:
   A[5] = 10
 contains two unique numbers (5 and 2).
 
-You should find the first unique number in A. In other words, find the unique number with the lowest position in A.
+You should find the first unique number in A. In other words, find the unique number with 
+the lowest position in A.
 
-For above example, 5 is in second position (because A[2] = 5) and 2 is in fourth position (because A[4] = 2). So, the first unique number is 5.
+For above example, 5 is in second position (because A[2] = 5) and 2 is in fourth position
+ (because A[4] = 2). So, the first unique number is 5.
 
 Write a function:
 
@@ -61,11 +63,11 @@ public class FirstUnique {
         }
 
         if (arr.length > 0){
-            nums.removeIf(i -> (Collections.frequency(arr, i) > 1));
-            if (nums.size > 0){
+            nums.removeIf(i -> (Collections.frequency(nums, i) > 1));
+            if (nums.size() > 0){
                 num = nums.get(0);
             }
-            else if (nums.size < 0){
+            else if (nums.size() < 0){
                 num = -1;
             }
         }
