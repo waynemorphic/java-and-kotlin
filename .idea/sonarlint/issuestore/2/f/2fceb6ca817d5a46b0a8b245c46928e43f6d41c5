@@ -1,0 +1,10 @@
+
+0
+java:S1220""Move this file to a named package.
+W
+java:S1226"AIntroduce a new variable instead of reusing the parameter "city".(þŽ×à
+E	java:S106"+Replace this use of System.out by a logger.(¹ˆçòýÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¤ç¼Ë
+V	java:S125$"<This block of commented-out lines of code should be removed.(é½Ãöûÿÿÿÿ
+@	java:S106*"+Replace this use of System.out by a logger.(¢ø‘¸
+E	java:S106+"+Replace this use of System.out by a logger.(¢‹€ðúÿÿÿÿ
