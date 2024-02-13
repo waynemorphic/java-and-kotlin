@@ -25,7 +25,7 @@
 * - in this example, I will use an example of a good sold by a whole seller and a retailer
 * - the whole seller sells it at a fixed price to all retailers, but the retailers sell it a different prices
 * */
-package learning;
+package learning.java;
 
 public class jPolymorphism {
     public static void main(String[] args){

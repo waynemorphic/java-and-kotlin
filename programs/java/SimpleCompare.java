@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * Two strings, a and b, are called anagrams if they contain all the same characters in 

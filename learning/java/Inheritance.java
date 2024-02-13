@@ -36,7 +36,7 @@
  * 
  */
 
-package learning;
+package learning.java;
 
 public class Inheritance {    
     public static void main(String[] args){

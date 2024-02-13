@@ -1,4 +1,4 @@
-package learning;
+package learning.java;
 
 public class StaticAndThis {
     /*

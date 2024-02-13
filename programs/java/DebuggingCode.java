@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 /*
  * In this challenge, the task is to debug the existing code to successfully execute all provided test files.
 

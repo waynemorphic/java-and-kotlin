@@ -5,7 +5,7 @@
  * 
  */
 
-package learning;
+package learning.java;
 
 public class jControl {
     String address;

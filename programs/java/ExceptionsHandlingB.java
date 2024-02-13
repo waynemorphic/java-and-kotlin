@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * You are required to compute the power of a number by implementing a calculator. Create a class MyCalculator which 

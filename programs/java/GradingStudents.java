@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
 HackerLand University has the following grading policy:

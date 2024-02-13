@@ -26,7 +26,7 @@
 *       }
 * */
 
-package learning;
+package learning.java;
 
 import java.util.Arrays;
 

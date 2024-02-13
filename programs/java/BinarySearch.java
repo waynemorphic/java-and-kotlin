@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 public class BinarySearch {
     public static int search(int[] nums, int target){

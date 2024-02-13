@@ -4,7 +4,7 @@
  *   HAS-A relationship with object B 
  */
 
-package learning;
+package learning.java;
 
 public class Aggregation{
     public static void main(String[] args){

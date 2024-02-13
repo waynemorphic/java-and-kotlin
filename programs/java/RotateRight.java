@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * An array A consisting of N integers is given. Rotation of the array means that each 

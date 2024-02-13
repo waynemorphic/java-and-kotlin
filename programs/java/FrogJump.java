@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * A small frog wants to get to the other side of the road. The frog is currently located 

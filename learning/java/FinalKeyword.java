@@ -24,7 +24,7 @@
 *   the methods.
 * */
 
-package learning;
+package learning.java;
 
 
 public class FinalKeyword {

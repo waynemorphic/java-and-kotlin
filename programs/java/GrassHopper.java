@@ -1,3 +1,5 @@
+package programs.java;
+
 public class GrassHopper {
 
   // void method that does not return anything

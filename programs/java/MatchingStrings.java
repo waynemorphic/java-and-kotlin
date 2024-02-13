@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * There is a collection of input strings and a collection of query strings. For each 

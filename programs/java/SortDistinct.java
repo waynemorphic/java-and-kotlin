@@ -1,4 +1,4 @@
-package programs;
+package programs.java;
 
 /*
  * Write a function

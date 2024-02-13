@@ -63,7 +63,7 @@
 *       - it is declared in the abstract class and does not have a method body to implement it
 */ 
 
-package learning;
+package learning.java;
 
 import java.util.Scanner;
 

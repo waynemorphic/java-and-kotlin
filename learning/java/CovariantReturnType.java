@@ -11,7 +11,7 @@
 *       - interface
  */
 
-package learning;
+package learning.java;
 
 import java.lang.reflect.Executable;
 import java.security.Signature;

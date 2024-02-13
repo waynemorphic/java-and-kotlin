@@ -118,7 +118,7 @@
          * - New keyword is used to allocate memory at runtime
          */
 
-package learning;
+package learning.java;
 
 public class jObjects{
 

@@ -22,7 +22,7 @@
 * - a class extends another class, an interface extends another interface but a class implements an interface
 * */
 
-package learning;
+package learning.java;
 
 public class jInterface {
     public static void main(String[] args){
